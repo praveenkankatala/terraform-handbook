@@ -1,7 +1,7 @@
 # Terraform - Zero to Production Study Guide
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/terraform-handbook/LICENSE)
-[![Terraform CI](https://github.com/<your-github-username>/terraform-study/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/<your-github-username>/terraform-study/actions/workflows/terraform-ci.yml)
+[![Terraform CI](https://github.com/praveenkankatala/terraform-handbook/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/praveenkankatala/terraform-handbook)
 
 A complete, hands-on study repository for **Terraform** - the open-source
 Infrastructure-as-Code (IaC) tool. Every topic below has concise theory, a
