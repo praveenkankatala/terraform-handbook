@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/terraform-handbook/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/praveenkankatala/terraform-handbook/blob/main/LICENSE)
 [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://github.com/praveenkankatala/terraform-handbook/)
 
 A complete, hands-on study repository for **Terraform** - the open-source
