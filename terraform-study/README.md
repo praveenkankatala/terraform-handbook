@@ -1,6 +1,6 @@
 # Terraform - Zero to Production Study Guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./terraform-handbook/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/terraform-handbook/LICENSE)
 [![Terraform CI](https://github.com/<your-github-username>/terraform-study/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/<your-github-username>/terraform-study/actions/workflows/terraform-ci.yml)
 
 A complete, hands-on study repository for **Terraform** - the open-source
