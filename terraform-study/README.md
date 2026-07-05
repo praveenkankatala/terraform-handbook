@@ -1003,6 +1003,3 @@ Everything included, for a scannable coverage check:
 See the git commands at the bottom of this file (or in your terminal history).
 Before pushing, edit the placeholders listed in **Placeholders to edit**.
 
-## License
-
-[MIT](https://github.com/praveenkankatala/terraform-handbook/blob/main/LICENSE).
