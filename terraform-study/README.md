@@ -1007,4 +1007,4 @@ Before pushing, edit the placeholders listed in **Placeholders to edit**.
 
 ## License
 
-[MIT](./LICENSE) - remember to replace `<Your Name>` in `LICENSE`.
+[MIT](./LICENSE)
