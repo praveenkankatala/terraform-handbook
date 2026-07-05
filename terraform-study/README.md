@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/terraform-handbook/LICENSE)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)]([https://www.terraform.io/](https://github.com/praveenkankatala/terraform-handbook/)
+[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)](https://github.com/praveenkankatala/terraform-handbook/)
 
 A complete, hands-on study repository for **Terraform** - the open-source
 Infrastructure-as-Code (IaC) tool. Every topic below has concise theory, a
