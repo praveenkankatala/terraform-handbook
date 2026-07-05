@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# config/backend.tf.example
+# Rename to backend.tf to enable a REMOTE backend (shared state + locking).
+# The S3 backend stores terraform.tfstate in a bucket; native S3 lockfile
+# support (Terraform >= 1.10) or a DynamoDB table prevents concurrent writes.
+#
+# Do NOT put access keys here. The backend uses the same credential sources
+# as the provider (env vars / profile / assumed role).
+# ---------------------------------------------------------------------------
+
+terraform {
+  backend "s3" {
+    bucket       = "my-org-terraform-state"       # create this bucket first
+    key          = "study/terraform.tfstate"      # path within the bucket
+    region       = "us-east-1"
+    encrypt      = true                            # encrypt state at rest
+
+    # Option A (Terraform >= 1.10): native S3 state locking.
+    use_lockfile = true
+
+    # Option B (older): a DynamoDB table with a "LockID" (string) hash key.
+    # dynamodb_table = "terraform-locks"
+  }
+}
+
+# Tip: keep this file free of secrets and pass changing values with
+#   terraform init -backend-config="bucket=..." -backend-config="key=..."
